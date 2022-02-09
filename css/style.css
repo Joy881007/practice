@@ -1,0 +1,170 @@
+@import url('reset.css');
+
+body {
+    font-family: Arial;
+    font-size: 14px;
+    color: #86878b;
+    line-height: 1.6;
+    background-image: url(../img/html_bg.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* ----------- 天長條 ------------ */
+.top {
+    background-color: #000;
+    height: 70px;
+}
+
+.top-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.top img {
+    width: 80px;
+    float: left;
+
+    margin-top: 20px;
+}
+
+.top ul {
+    float: right;
+}
+
+.top li {
+    float: left;
+}
+
+.top li a {
+    color: white;
+    display: block;
+    line-height: 70px;
+    padding: 0 20px;
+}
+
+.top li a:hover{
+    color: #ff8b38;
+}
+
+
+/* -------------- kv block --------------- */
+.kv {
+    background-image: url(../img/main_bg.png);
+    height: 640px;
+    color: #fff;
+
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.kv-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.kv img {
+    margin-bottom: 10px;
+}
+
+.kv h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.kv span {
+    display: block;
+    width: 65px;
+    height: 1px;
+    background-color: #fff;
+
+    margin-bottom: 30px;
+}
+
+.kv p {
+    color: #ccc;
+    margin-bottom: 35px;
+}
+
+.kv a {
+    display: block;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid white;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.kv a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* ------- Socoal Media Block -------- */
+.social {
+    height: 105px;
+    background-color: #fff;
+}
+
+.social-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.social-text {
+    float: left;
+    margin-top: 15px;
+}
+
+.social-text h3 {
+    color: #000;
+    font-size: 20px;
+}
+
+.social-text p {}
+
+.social ul {
+    float: right;
+    margin-top: 28px;
+}
+
+.social li {
+    float: left;
+    margin-left: 58px;
+}
+
+.social a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/social_media_icons_big.png);
+}
+
+.social .btn1 a { background-position: 0px 0px; }
+.social .btn2 a { background-position: 0px -50px; }
+.social .btn3 a { background-position: 0px -100px; }
+.social .btn4 a { background-position: 0px -150px; }
+.social .btn5 a { background-position: 0px -200px; }
+.social .btn6 a { background-position: 0px -250px; }
+.social .btn7 a { background-position: 0px -300px; }
+
+.social .btn1 a:hover{ background-position: -50px 0px; }
+.social .btn2 a:hover{ background-position: -50px -50px; }
+.social .btn3 a:hover{ background-position: -50px -100px; }
+.social .btn4 a:hover{ background-position: -50px -150px; }
+.social .btn5 a:hover{ background-position: -50px -200px; }
+.social .btn6 a:hover{ background-position: -50px -250px; }
+.social .btn7 a:hover{ background-position: -50px -300px; }
